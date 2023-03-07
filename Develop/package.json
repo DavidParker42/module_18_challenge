@@ -1,20 +1,27 @@
+
+
 {
-  "name": "28-Stu_Mini-Project",
-  "version": "1.0.1",
-  "description": "Mongoose back-end project - Develop",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed",
-    "heroku-postbuild": "node utils/seed.js"
-  },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^6.0.13"
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.9"
-  }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "nosql-challenge-social-network-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afrema90/NoSQL-Challenge-Social-Network-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afrema90/NoSQL-Challenge-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Afrema90/NoSQL-Challenge-Social-Network-API#readme"
 }
