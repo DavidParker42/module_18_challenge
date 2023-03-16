@@ -23,9 +23,9 @@ const userSchema = new Schema({
 });
 
 userSchema.virtual("friendCount").get(function () {
-  return this.comments.length;
+  return this.freinds.length;
 });
 
-const Student = model('student', studentSchema);
+const User = model('User', userSchema);
 
-module.exports = Student;
+module.exports = User;
