@@ -9,14 +9,11 @@
   4. [Github repository link](#github-repository-link)
 
   ## Description
-a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS
+A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS
 
- 
 
   ## Email
   david.m.parker92@gmail.com
-
-
 
   ## Application Type
   Server-Side APIs
